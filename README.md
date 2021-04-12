@@ -9,4 +9,13 @@ LCD 1602 Display
 4 330ohm Resistor
 Servo
 
-schematic is attached with the code.
+*schematic is attached with the code.
+
+
+test code for each component is also provided.
+
+libraries required:
+<dht.h>
+<Servo.h>
+
+<LiquidCrystal.h>
