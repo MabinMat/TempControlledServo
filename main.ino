@@ -2,20 +2,22 @@
 #include  <dht.h>
 #include <LiquidCrystal.h>
 
+//initial Servo
 Servo servo;
 int pos = 0;
 int servoPin = 52;
 
+///initial temperature Sensor
 int tempPin = A0;
 dht DHT;
 
-
+//initial LEDS
 int led01 = 8;
 int led02 = 9;
 int led03 = 10;
 int led04 = 11;
 
-
+//initial LCD
 int rs = 7;
 int en = 6;
 int d4 = 5;
@@ -23,8 +25,10 @@ int d5 = 4;
 int d6 = 3;
 int d7 = 2;
 
+// state of switch
 int temp = 0;
 
+//create LCD
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 void setup() {

@@ -14,6 +14,8 @@
  int d7 = 2;
 int counter = 0;
 
+
+
 //initialize LCD
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
   
